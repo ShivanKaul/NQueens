@@ -28,7 +28,7 @@ public class NQueens {
         }
         Map<Integer, Integer> placed = new HashMap<>();
         solveNQueens(placed, 0);
-        System.out.println("There are " + num_solutions + " num_solutions to " + n + "-queens problem");
+        System.out.println("There are " + num_solutions + " solutions to " + n + "-queens problem");
     }
 
     /**
