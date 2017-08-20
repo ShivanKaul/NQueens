@@ -16,7 +16,7 @@ public class NQueensTest {
     private static Map<Integer, Integer> placed;
 
     @BeforeAll
-    public static void runOnceBeforeClass() {
+    public static void runOnce() {
         ANSWERS.put(2, 0);
         ANSWERS.put(3, 0);
         ANSWERS.put(4, 2);
